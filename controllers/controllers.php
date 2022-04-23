@@ -19,7 +19,6 @@ function getTransactionFiles( string $filePath) : array
 
 }
 
-
 function getTransactions(string $fileName) : array
 {
     if(!file_exists($fileName))
