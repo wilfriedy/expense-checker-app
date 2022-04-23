@@ -21,5 +21,4 @@ foreach($files_to_read as $file);
 
 print_r($transaction_value);
 
-
 print_r($files_to_read);
