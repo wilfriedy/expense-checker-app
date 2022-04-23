@@ -29,8 +29,6 @@ function getTransactions(string $fileName) : array
     $file = fopen($fileName, 'r'); 
     fgetcsv($file);
 
-    // print_r($file);
-
     $transactions_data = [];
 
     while(($singleTransaction = fgetcsv($file)) !== FALSE)
