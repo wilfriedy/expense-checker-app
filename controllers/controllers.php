@@ -36,9 +36,6 @@ function getTransactions(string $fileName) : array
 
     while(($singleTransaction = fgetcsv($file)) !== FALSE)
     {
-        // if($transaction_row !== null){
-        //     $singleTransaction = 
-        // }
 
         $transactions_data[] = $singleTransaction;
         
